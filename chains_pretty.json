@@ -3269,7 +3269,7 @@
   "chainId": 163,
   "networkId": 163
 }, {
-  "name": "Omni Omega",
+  "name": "Omni Omega Testnet",
   "chain": "Omni",
   "status": "active",
   "rpc": ["https://omega.omni.network", "wss://wss.omega.omni.network"],
@@ -15192,6 +15192,27 @@
     }]
   }
 }, {
+  "name": "Aarma Mainnet",
+  "chain": "Aarma",
+  "rpc": ["https://aarmarpc.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Aarma",
+    "symbol": "ARMA",
+    "decimals": 18
+  },
+  "infoURL": "https://aarmachain.com",
+  "shortName": "ARMA",
+  "chainId": 2889,
+  "networkId": 2889,
+  "icon": "arma",
+  "explorers": [{
+    "name": "aarmascan",
+    "url": "https://aarmascan.com",
+    "icon": "arma",
+    "standard": "none"
+  }]
+}, {
   "name": "Elux Chain",
   "chain": "ELUX",
   "icon": "eluxchain",
@@ -25327,6 +25348,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Everclear Mainnet",
+  "chain": "Everclear Mainnet",
+  "rpc": ["https://rpc.everclear.raas.gelato.cloud"],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "",
+  "shortName": "Everclear",
+  "chainId": 25327,
+  "networkId": 25327,
+  "explorers": [{
+    "name": "Everclear",
+    "url": "https://scan.everclear.org",
+    "icon": "everclear",
+    "standard": "none"
+  }]
+}, {
   "name": "AlveyChain Testnet",
   "chain": "tALV",
   "rpc": ["https://testnet-rpc.alvey.io"],
@@ -28971,6 +29012,30 @@
   "explorers": [{
     "name": "DM2Verse Explorer",
     "url": "https://explorer.dm2verse.dmm.com",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-248"
+  }
+}, {
+  "name": "DM2 Verse Testnet",
+  "chain": "DM2 Verse",
+  "icon": "dm2verse",
+  "rpc": ["https://rpc.testnet.dm2verse.dmm.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://seamoon.dmm.com",
+  "shortName": "dm2t",
+  "chainId": 68775,
+  "networkId": 68775,
+  "explorers": [{
+    "name": "DM2Verse Testnet Explorer",
+    "url": "https://explorer.testnet.dm2verse.dmm.com",
     "standard": "EIP3091"
   }],
   "parent": {
@@ -36159,6 +36224,28 @@
     "name": "Safe(AnWang) Testnet Explorer",
     "url": "http://safe4-testnet.anwang.com",
     "icon": "safe-anwang",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "COTI Testnet",
+  "title": "COTI Testnet",
+  "chain": "COTI",
+  "icon": "coti",
+  "rpc": ["https://testnet.coti.io/rpc"],
+  "faucets": ["https://faucet.coti.io"],
+  "nativeCurrency": {
+    "name": "COTI",
+    "symbol": "COTI",
+    "decimals": 18
+  },
+  "infoURL": "https://coti.io/",
+  "shortName": "coti-testnet",
+  "chainId": 7082400,
+  "networkId": 7082400,
+  "explorers": [{
+    "name": "COTI Testnet Explorer",
+    "url": "https://testnet.cotiscan.io",
+    "icon": "ethernal",
     "standard": "EIP3091"
   }]
 }, {
